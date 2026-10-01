@@ -1,0 +1,75 @@
+/* ==========================================================================
+   responsive.css  -  breakpoint refinements (loaded after style.css)
+   Checked for: 320, 375, 425, 768, 1024, 1280, 1440, 1920 and 4K widths.
+   ========================================================================== */
+
+/* Payment layout (fees page) */
+.pay-layout { display: grid; gap: 2rem; }
+@media (min-width: 960px) { .pay-layout { grid-template-columns: 1.4fr 1fr; align-items: start; } }
+
+/* Very small phones (320px) */
+@media (max-width: 400px) {
+  body { font-size: 1rem; }
+  .container { width: min(100% - 1.5rem, var(--container)); }
+  .header-inner { width: min(100% - 1.2rem, 1380px); gap: .6rem; }
+  .brand-name { font-size: .92rem; letter-spacing: .03em; }
+  .brand-logo { width: 40px; height: 40px; }
+  .icon-btn, .menu-btn { width: 44px; height: 44px; }
+  .hero h1 { font-size: 2.9rem; }
+  .hero-inner { padding-bottom: 9rem; }
+  .hero .btn-row .btn, .btn-row .btn { width: 100%; }
+  .hero-trust ul { gap: .3rem 1rem; font-size: .92rem; }
+  .hero-trust li + li::before { margin-right: 1rem; }
+  .modal-body { padding: 1.2rem; }
+  .form-card { padding: 1.2rem; border-radius: 22px; }
+  .tslide { padding: 1.4rem; }
+  .fee-card dl, .fee-card header { padding-inline: 1.1rem; } .fee-card .btn { margin-inline: 1.1rem; }
+  .toast-wrap { bottom: 84px; }
+}
+
+/* Phones */
+@media (max-width: 599px) {
+  .footer-bottom__in { flex-direction: column; }
+  .wa-float { right: 14px; bottom: 14px; }
+  .contact-list li { gap: .8rem; }
+}
+
+/* Tablets */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .hero-inner { padding-bottom: 7rem; }
+  .level-block .arch--lg { margin-inline: auto; }
+}
+
+/* Small laptops: avoid cramped navigation just above the mobile breakpoint */
+@media (min-width: 1180px) and (max-width: 1360px) {
+  .nav a { padding: .5rem .55rem; font-size: .9rem; }
+  .brand-name { font-size: 1rem; }
+}
+
+/* Large desktops */
+@media (min-width: 1600px) {
+  :root { --container: 1360px; }
+  html { font-size: 17.5px; }
+}
+
+/* 4K and ultra-wide: scale type and keep content centred, no stretched layouts */
+@media (min-width: 2200px) {
+  :root { --container: 1640px; --header-h: 92px; }
+  html { font-size: 21px; }
+  .header-inner { width: min(100% - 4rem, 1900px); }
+  .hero h1 { font-size: 9rem; }
+}
+
+/* Short landscape phones: hero must not clip its content */
+@media (max-height: 560px) and (orientation: landscape) {
+  .hero { min-height: 640px; }
+  .hero-inner { padding-bottom: 6rem; }
+}
+
+/* Users who zoom text: let long headings wrap */
+h1, h2, h3, .brand-name { overflow-wrap: anywhere; hyphens: manual; }
+
+/* Contact page: keep the map box and its placeholder inside narrow screens */
+.contact-grid > *, .map-box, .map-placeholder { min-width: 0; max-width: 100%; }
+.map-placeholder code { overflow-wrap: anywhere; }
+.map-placeholder p { overflow-wrap: anywhere; }
