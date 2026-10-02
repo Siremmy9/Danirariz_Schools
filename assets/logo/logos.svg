@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="School logo placeholder">
+  <!-- PLACEHOLDER LOGO: replace this file with your school logo (SVG or PNG). Update "logo" in js/config.js if the file name changes. -->
+  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8A1B3D"/><stop offset="1" stop-color="#4A0D22"/></linearGradient></defs>
+  <path d="M14 112V52C14 24 34 6 60 6s46 18 46 46v60z" fill="url(#a)" stroke="#D4A017" stroke-width="4"/>
+  <path d="M26 112V54C26 32 40 18 60 18s34 14 34 36v58" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.5"/>
+  <path d="M60 96c-14-6-22-16-22-30 14 0 22 8 22 30zM60 96c14-6 22-16 22-30-14 0-22 8-22 30z" fill="#1E6B3F"/>
+  <text x="60" y="62" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="40" fill="#fff">D</text>
+</svg>

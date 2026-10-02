@@ -38,19 +38,21 @@ const schoolConfig = {
 
   /* ---- Media ---- */
   // Logo: replace assets/logo/logo.svg with your logo file, or point to a new path.
-  logo: "assets/logo/logo.jpg",
+  logo: "assets/images/logo.jpg",
   // Hero video: put your MP4 at this path. If the file is missing, the poster/hero image is shown.
   heroVideo: "assets/videos/school-hero.mp4",
   // Optional: path to a hero fallback image (JPG/WebP). Empty = generated placeholder.
-  heroPoster: "",
+  heroPoster: "assets/images/logo.jpg",
   // Optional section images (paths). Empty = generated placeholders you can spot and replace.
   images: { about: "", creche: "", nursery: "", primary: "", secondary: "" },
 
   /* ---- Google Maps ---- */
   // PASTE GOOGLE MAP EMBED URL HERE (Google Maps > Share > Embed a map > copy the src="..." value)
   mapUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15857.541049088619!2d3.656480727281855!3d6.472787242177414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf9ae1d3d76e3%3A0x7a8375257f80457!2sANGEL's%20TREAT%20AESTHETICS%20STUDIO!5e0!3m2!1sen!2sng!4v1788897615012!5m2!1sen!2sng",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4164415064893!2d3.6547908000000002!3d6.4688142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf94e2cc199a5%3A0xdfb25373f783331d!2sDanirariz%20School!5e0!3m2!1sen!2sng!4v1790916884033!5m2!1sen!2sng",
+    // <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4164415064893!2d3.6547908000000002!3d6.4688142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf94e2cc199a5%3A0xdfb25373f783331d!2sDanirariz%20School!5e0!3m2!1sen!2sng!4v1790916884033!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>, -->
 
+    
   /* ---- Social links (leave empty to show a "not set" placeholder) ---- */
   social: { facebook: "", instagram: "", youtube: "", tiktok: "" },
 
