@@ -1,40 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Admin | Danirariz Schools</title>
-<meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#6D1230">
-<link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap">
-<link rel="stylesheet" href="../css/admin.css">
-</head>
-<body data-admin-page="login" data-root="../">
-<div class="login-page">
-  <aside class="login-aside" aria-hidden="true"><h1 data-cfg="name">School</h1><p data-cfg="tagline">Tagline</p></aside>
-  <main class="login-main" id="main">
-    <div class="login-card">
-      <div class="brand"><img data-logo src="" alt="" width="52" height="52"><strong data-cfg="name">School</strong></div>
-      <h1 style="font-size:1.7rem;margin:0 0 .3rem">Admin login</h1>
-      <p style="margin:0 0 1.2rem;color:var(--muted)">Sign in to manage the website and school activities.</p>
-      <p class="login-error" id="login-error" role="alert" hidden></p>
-      <form id="login-form" novalidate>
-        <div class="field"><label for="username">Email or username</label><input id="username" name="username" type="text" required autocomplete="username"></div>
-        <div class="field"><label for="password">Password</label><div class="pw-wrap"><input id="password" name="password" type="password" required autocomplete="current-password"><button class="btn btn-ghost" type="button" id="toggle-pw" aria-pressed="false">Show</button></div></div>
-        <div class="login-row"><label class="check"><input type="checkbox" id="remember"> Remember me</label><button type="button" class="link-btn" id="forgot">Forgot password?</button></div>
-        <button class="btn btn-wine" type="submit" style="width:100%">Login</button>
-      </form>
-      <div class="demo-note"><p><strong>Demo only.</strong> This login is not secure and must be replaced before going live.</p><p>Username: <code>admin</code> &nbsp; Password: <code>admin123</code></p></div>
-      <p style="margin:1.2rem 0 0;text-align:center"><a class="link" href="../index.html">Back to website</a></p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin | Danirariz Schools</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#6D1230" />
+    <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap" />
+    <link rel="stylesheet" href="../css/admin.css" />
+  </head>
+  <body data-admin-page="login" data-root="../">
+    <div class="login-page">
+      <aside class="login-aside" aria-hidden="true">
+        <h1 data-cfg="name">School</h1>
+        <p data-cfg="tagline">Tagline</p>
+      </aside>
+      <main class="login-main" id="main">
+        <div class="login-card">
+          <div class="brand">
+            <img data-logo src="" alt="" width="52" height="52" /><strong
+              data-cfg="name"
+              >School</strong
+            >
+          </div>
+          <h1 style="font-size: 1.7rem; margin: 0 0 0.3rem">Admin login</h1>
+          <p style="margin: 0 0 1.2rem; color: var(--muted)">
+            Sign in to manage the website and school activities.
+          </p>
+          <p class="login-error" id="login-error" role="alert" hidden></p>
+          <form id="login-form" novalidate>
+            <div class="field">
+              <label for="username">Email or username</label
+              ><input
+                id="username"
+                name="username"
+                type="text"
+                required
+                autocomplete="username" />
+            </div>
+            <div class="field">
+              <label for="password">Password</label>
+              <div class="pw-wrap">
+                <input
+                  id="password"
+                  name="password"
+                  type="password"
+                  required
+                  autocomplete="current-password" /><button
+                  class="btn btn-ghost"
+                  type="button"
+                  id="toggle-pw"
+                  aria-pressed="false">
+                  Show
+                </button>
+              </div>
+            </div>
+            <div class="login-row">
+              <label class="check"
+                ><input type="checkbox" id="remember" /> Remember me</label
+              ><button type="button" class="link-btn" id="forgot">
+                Forgot password?
+              </button>
+            </div>
+            <button class="btn btn-wine" type="submit" style="width: 100%">
+              Login
+            </button>
+          </form>
+          <div class="demo-note">
+            <p>
+              <strong>Demo only.</strong> This login is not secure and must be
+              replaced before going live.
+            </p>
+            <p>
+              Username: <code>admin</code> &nbsp; Password:
+              <code>admin123</code>
+            </p>
+          </div>
+          <p style="margin: 1.2rem 0 0; text-align: center">
+            <a class="link" href="../index.html">Back to website</a>
+          </p>
+        </div>
+      </main>
     </div>
-  </main>
-</div>
-<noscript><p style="padding:2rem">Please enable JavaScript to use the admin dashboard.</p></noscript>
-<script src="../js/config.js"></script>
-<script src="../js/storage.js"></script>
-<script src="../js/admin.js"></script>
-</body>
+    <noscript
+      ><p style="padding: 2rem">
+        Please enable JavaScript to use the admin dashboard.
+      </p></noscript
+    >
+    <script src="../js/config.js"></script>
+    <script src="../js/storage.js"></script>
+    <script src="../js/admin.js"></script>
+  </body>
 </html>

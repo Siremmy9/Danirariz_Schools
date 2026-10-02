@@ -24,20 +24,21 @@ const schoolConfig = {
   addressLines: [
     "Majek, opposite Fara Park Estate,",
     "Epe-Ajah Expressway,",
-    "Lagos, Nigeria."
+    "Lagos, Nigeria.",
   ],
 
   /* ---- Contact (replace the placeholders) ---- */
-  phone: "+234 XXX XXX XXXX",
-  email: "info@yourschool.com",
-  whatsapp: "234XXXXXXXXXX", // international format, digits only, no "+"
+  phone: "+234 903 010 9127",
+  email: "info@danirarizschool.com",
+  whatsapp: "2349030109127", // international format, digits only, no "+"
   whatsappMessage:
     "Hello Danirariz Schools, I would like to make an enquiry about admission.",
-  openingHours: "Monday to Friday, 8:00am to 4:00pm (update in Admin > Settings)",
+  openingHours:
+    "Monday to Friday, 8:00am to 4:00pm (update in Admin > Settings)",
 
   /* ---- Media ---- */
   // Logo: replace assets/logo/logo.svg with your logo file, or point to a new path.
-  logo: "assets/logo/logo.svg",
+  logo: "assets/logo/logo.jpg",
   // Hero video: put your MP4 at this path. If the file is missing, the poster/hero image is shown.
   heroVideo: "assets/videos/school-hero.mp4",
   // Optional: path to a hero fallback image (JPG/WebP). Empty = generated placeholder.
@@ -47,7 +48,8 @@ const schoolConfig = {
 
   /* ---- Google Maps ---- */
   // PASTE GOOGLE MAP EMBED URL HERE (Google Maps > Share > Embed a map > copy the src="..." value)
-  mapUrl: "",
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15857.541049088619!2d3.656480727281855!3d6.472787242177414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf9ae1d3d76e3%3A0x7a8375257f80457!2sANGEL's%20TREAT%20AESTHETICS%20STUDIO!5e0!3m2!1sen!2sng!4v1788897615012!5m2!1sen!2sng",
 
   /* ---- Social links (leave empty to show a "not set" placeholder) ---- */
   social: { facebook: "", instagram: "", youtube: "", tiktok: "" },
@@ -56,7 +58,7 @@ const schoolConfig = {
   colors: { primary: "#6D1230", secondary: "#D4A017" },
 
   /* ---- Footer credit (editable in Admin > Settings) ---- */
-  designer: "[Developer/Company Name]",
+  designer: "[Emmanuel | Sowftech]",
 
   /* ---- Homepage statistics: SAMPLE numbers, update in Admin > Settings ---- */
   stats: { years: 10, students: 500, staff: 40, programs: 12 },
@@ -71,9 +73,9 @@ const schoolConfig = {
       focus: [
         "Caring, closely supervised daily routines",
         "Sensory play and early movement",
-        "First words, songs and stories"
+        "First words, songs and stories",
       ],
-      classes: ["Crèche"]
+      classes: ["Crèche"],
     },
     {
       id: "nursery",
@@ -83,9 +85,9 @@ const schoolConfig = {
       focus: [
         "Early literacy and numeracy through play",
         "Creative arts, rhymes and music",
-        "Social skills, sharing and good manners"
+        "Social skills, sharing and good manners",
       ],
-      classes: ["Nursery 1", "Nursery 2", "Nursery 3"]
+      classes: ["Nursery 1", "Nursery 2", "Nursery 3"],
     },
     {
       id: "primary",
@@ -95,9 +97,16 @@ const schoolConfig = {
       focus: [
         "Strong core subjects: English, Mathematics and Science",
         "ICT, sports and creative arts every week",
-        "Moral education and leadership roles"
+        "Moral education and leadership roles",
       ],
-      classes: ["Primary 1", "Primary 2", "Primary 3", "Primary 4", "Primary 5", "Primary 6"]
+      classes: [
+        "Primary 1",
+        "Primary 2",
+        "Primary 3",
+        "Primary 4",
+        "Primary 5",
+        "Primary 6",
+      ],
     },
     {
       id: "secondary",
@@ -107,10 +116,10 @@ const schoolConfig = {
       focus: [
         "Rigorous subject teaching and examination preparation",
         "Mentoring, clubs and student leadership",
-        "Guidance towards university and career paths"
+        "Guidance towards university and career paths",
       ],
-      classes: ["JSS 1", "JSS 2", "JSS 3", "SS 1", "SS 2", "SS 3"]
-    }
+      classes: ["JSS 1", "JSS 2", "JSS 3", "SS 1", "SS 2", "SS 3"],
+    },
   ],
 
   /* ---- About page copy (sample text, edit freely) ---- */
@@ -122,34 +131,87 @@ const schoolConfig = {
     vision:
       "To be the home of leaders: a school where every child discovers their potential and is prepared for the future.",
     philosophy:
-      "Children learn best when they feel safe, known and challenged. We combine firm discipline with warm relationships, and strong academics with character, creativity and service."
+      "Children learn best when they feel safe, known and challenged. We combine firm discipline with warm relationships, and strong academics with character, creativity and service.",
   },
 
   values: [
-    { title: "Discipline", icon: "shield", text: "Clear routines and high standards that help children grow in self-control." },
-    { title: "Excellence", icon: "target", text: "We aim for the best in every lesson, every activity and every result." },
-    { title: "Integrity", icon: "scale", text: "Honesty and fairness guide how our pupils and staff behave." },
-    { title: "Leadership", icon: "crown", text: "Every child gets chances to lead, speak up and serve others." },
-    { title: "Character", icon: "heart", text: "Respect, kindness and responsibility are taught as carefully as mathematics." },
-    { title: "Innovation", icon: "bulb", text: "Curious minds are encouraged to ask questions and try new ideas." }
+    {
+      title: "Discipline",
+      icon: "shield",
+      text: "Clear routines and high standards that help children grow in self-control.",
+    },
+    {
+      title: "Excellence",
+      icon: "target",
+      text: "We aim for the best in every lesson, every activity and every result.",
+    },
+    {
+      title: "Integrity",
+      icon: "scale",
+      text: "Honesty and fairness guide how our pupils and staff behave.",
+    },
+    {
+      title: "Leadership",
+      icon: "crown",
+      text: "Every child gets chances to lead, speak up and serve others.",
+    },
+    {
+      title: "Character",
+      icon: "heart",
+      text: "Respect, kindness and responsibility are taught as carefully as mathematics.",
+    },
+    {
+      title: "Innovation",
+      icon: "bulb",
+      text: "Curious minds are encouraged to ask questions and try new ideas.",
+    },
   ],
 
   admissionSteps: [
-    { title: "Submit enquiry", text: "Fill in the enquiry form below or message us on WhatsApp." },
-    { title: "Schedule a visit", text: "Tour the school and meet our team at a time that suits you." },
-    { title: "Complete admission form", text: "Provide your child's details and the required documents." },
-    { title: "Assessment or interview", text: "A friendly, age-appropriate assessment for your child." },
-    { title: "Admission confirmation", text: "We confirm the outcome and share the next steps." },
-    { title: "Enrollment", text: "Complete payment and welcome your child to the school." }
+    {
+      title: "Submit enquiry",
+      text: "Fill in the enquiry form below or message us on WhatsApp.",
+    },
+    {
+      title: "Schedule a visit",
+      text: "Tour the school and meet our team at a time that suits you.",
+    },
+    {
+      title: "Complete admission form",
+      text: "Provide your child's details and the required documents.",
+    },
+    {
+      title: "Assessment or interview",
+      text: "A friendly, age-appropriate assessment for your child.",
+    },
+    {
+      title: "Admission confirmation",
+      text: "We confirm the outcome and share the next steps.",
+    },
+    {
+      title: "Enrollment",
+      text: "Complete payment and welcome your child to the school.",
+    },
   ],
 
   galleryCategories: [
-    "Classrooms", "Students", "Events", "Sports", "Graduation", "Cultural Activities", "Facilities"
+    "Classrooms",
+    "Students",
+    "Events",
+    "Sports",
+    "Graduation",
+    "Cultural Activities",
+    "Facilities",
   ],
   newsCategories: [
-    "Announcement", "Admissions", "Events", "Sports", "Academics", "Parents"
+    "Announcement",
+    "Admissions",
+    "Events",
+    "Sports",
+    "Academics",
+    "Parents",
   ],
 
   /* ---- Demo admin account: see js/admin.js (DEMO AUTH ONLY) ---- */
-  siteUrl: "" // e.g. "https://www.danirariz.com" (used for SEO; update canonical tags in the HTML too)
+  siteUrl: "", // e.g. "https://www.danirariz.com" (used for SEO; update canonical tags in the HTML too)
 };
