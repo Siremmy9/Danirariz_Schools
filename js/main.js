@@ -2,7 +2,7 @@
    main.js  -  shared chrome (header/footer/WhatsApp), section renderers,
    scroll effects, counters, testimonial carousel.
    Other scripts register renderers: App.renderers["name"] = (el) => {...}
-   and run code after setup with App.onReady(fn).
+   and run code after setup with App.onReady(fn). stimulating
    ========================================================================== */
 
 const App = {
@@ -49,7 +49,7 @@ const App = {
         `<li><a href="${h}"${isActive(h) ? ' aria-current="page"' : ""}>${t}</a></li>`,
     ).join("");
   }
-
+  // apply
   function buildHeader() {
     const h = $("#site-header");
     if (!h) return;

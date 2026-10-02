@@ -44,15 +44,20 @@ const schoolConfig = {
   // Optional: path to a hero fallback image (JPG/WebP). Empty = generated placeholder.
   heroPoster: "assets/images/logo.jpg",
   // Optional section images (paths). Empty = generated placeholders you can spot and replace.
-  images: { about: "", creche: "", nursery: "", primary: "", secondary: "" },
+  images: {
+    about: "assets/images/logo.jpg",
+    creche: "",
+    nursery: "",
+    primary: "",
+    secondary: "",
+  },
 
   /* ---- Google Maps ---- */
   // PASTE GOOGLE MAP EMBED URL HERE (Google Maps > Share > Embed a map > copy the src="..." value)
   mapUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4164415064893!2d3.6547908000000002!3d6.4688142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf94e2cc199a5%3A0xdfb25373f783331d!2sDanirariz%20School!5e0!3m2!1sen!2sng!4v1790916884033!5m2!1sen!2sng",
-    // <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4164415064893!2d3.6547908000000002!3d6.4688142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf94e2cc199a5%3A0xdfb25373f783331d!2sDanirariz%20School!5e0!3m2!1sen!2sng!4v1790916884033!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>, -->
+  // <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4164415064893!2d3.6547908000000002!3d6.4688142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf94e2cc199a5%3A0xdfb25373f783331d!2sDanirariz%20School!5e0!3m2!1sen!2sng!4v1790916884033!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>, -->
 
-    
   /* ---- Social links (leave empty to show a "not set" placeholder) ---- */
   social: { facebook: "", instagram: "", youtube: "", tiktok: "" },
 
@@ -70,7 +75,7 @@ const schoolConfig = {
     {
       id: "creche",
       name: "Crèche",
-      age: "Ages 0 to 2 (edit to match your school)",
+      age: "Ages 0 to 2 ",
       desc: "A safe, nurturing and stimulating environment for our youngest learners.",
       focus: [
         "Caring, closely supervised daily routines",
@@ -82,7 +87,7 @@ const schoolConfig = {
     {
       id: "nursery",
       name: "Nursery",
-      age: "Ages 3 to 5 (edit to match your school)",
+      age: "Ages 3 to 5 ",
       desc: "Building strong foundations through play, discovery and early learning.",
       focus: [
         "Early literacy and numeracy through play",
