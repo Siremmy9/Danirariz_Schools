@@ -46,10 +46,10 @@ const schoolConfig = {
   // Optional section images (paths). Empty = generated placeholders you can spot and replace.
   images: {
     about: "assets/images/logo.jpg",
-    creche: "",
-    nursery: "",
-    primary: "",
-    secondary: "",
+    creche: "assets/images/creche.jpg",
+    nursery: "assets/images/session.jpg",
+    primary: "assets/images/primary.jpg",
+    secondary: "assets/images/secondary.jpg",
   },
 
   /* ---- Google Maps ---- */
